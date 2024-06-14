@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
 }
 
 *,
@@ -18,10 +19,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 4rem;
+  height: 4rem;
 }
 .nav__logo {
   text-decoration: none;
   color: #335576;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 .nav__list {
@@ -32,13 +35,9 @@ body {
   text-decoration: none;
   padding: 0.5rem;
   color: black;
+  font-weight: 550;
 }
 .nav__link--active {
   text-decoration: underline #db7a4e 3px;
-  text-underline-offset: 0.5rem;
-}
-h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #335576;
+  text-underline-offset: 0.7rem;
 }

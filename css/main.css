@@ -8,8 +8,17 @@
 
 .hero__left {
   flex-grow: 2;
-  padding: 2rem;
 }
+.hero__heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #335576;
+}
+
+.hero__description {
+  color: #335576;
+}
+
 .hero__link {
   color: white;
   background-color: #db7a4e;
@@ -22,5 +31,41 @@
 .hero__image {
   width: 90%;
   height: 90%;
-  padding-left: 5rem;
+  padding-left: 6rem;
+}
+.recomendations {
+  margin: 2rem 3rem;
+}
+.recomendations__heading {
+  color: #335576;
+  font-size: 2rem;
+}
+.destinations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 7rem;
+}
+.destinations__link {
+  height: 400px;
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.destinations__image {
+  height: 100%;
+  width: 100%;
+}
+.destinations__name {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  margin: 0;
 }
