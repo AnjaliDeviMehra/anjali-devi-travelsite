@@ -1,0 +1,26 @@
+.hero {
+  background-color: #fefaf5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.hero__left {
+  flex-grow: 2;
+  padding: 2rem;
+}
+.hero__link {
+  color: white;
+  background-color: #db7a4e;
+  padding: 0.5rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero__image {
+  width: 90%;
+  height: 90%;
+  padding-left: 5rem;
+}

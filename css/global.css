@@ -37,3 +37,8 @@ body {
   text-decoration: underline #db7a4e 3px;
   text-underline-offset: 0.5rem;
 }
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #335576;
+}
