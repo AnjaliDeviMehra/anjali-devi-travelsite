@@ -36,10 +36,7 @@
 .recomendations {
   margin: 2rem 3rem;
 }
-.recomendations__heading {
-  color: #335576;
-  font-size: 2rem;
-}
+
 .destinations {
   display: flex;
   flex-wrap: wrap;

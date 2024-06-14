@@ -41,3 +41,34 @@ body {
   text-decoration: underline #db7a4e 3px;
   text-underline-offset: 0.7rem;
 }
+h3 {
+  color: #335576;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+h4 {
+  color: #db7a4e;
+  margin: 0;
+}
+footer {
+  background-color: #fefaf5;
+  display: flex;
+  padding: 4rem;
+  justify-content: space-evenly;
+}
+.contact__email {
+  color: #335576;
+  font-size: 1rem;
+}
+.hours__schedule {
+  display: flex;
+
+  align-items: center;
+}
+.hours__days {
+  margin: 0 2rem 0 0;
+}
+.hours__time {
+  color: #335576;
+  font-size: 1rem;
+}
