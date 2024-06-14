@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+.nav__logo {
+  text-decoration: none;
+  color: #335576;
+  font-weight: 600;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+.nav__link {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: black;
+}
+.nav__link--active {
+  text-decoration: underline #db7a4e 3px;
+  text-underline-offset: 0.5rem;
+}
