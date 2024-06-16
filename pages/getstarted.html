@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/getstarted.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a class="nav__logo" href="../index.html">Travel Site</a>
+
+        <ul class="nav__list">
+          <li>
+            <a class="nav__link" href="../index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav__link" href="./hawaii.html">Hawaii</a>
+          </li>
+          <li>
+            <a class="nav__link" href="./iceland.html">Iceland</a>
+          </li>
+          <li>
+            <a class="nav__link" href="./greece.html">Greece</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form class="booking">
+        <h2>Get Started</h2>
+        <label>Destination</label>
+        <select class="booking__input" name="select" required>
+          <option>Select Destination</option>
+          <option>Hawaii</option>
+          <option>Iceland</option>
+          <option>Greece</option>
+        </select>
+        <label class="booking__label" for="name">Name</label>
+        <input class="booking__input" tyep="text" name="name" required />
+        <label class="booking__label" for="number">Phone Number</label>
+        <input class="booking__input" type="tel" name="number" required />
+        <label class="booking__label" for="message">Message</label>
+        <textarea
+          class="booking__input"
+          name="message"
+          rows="4"
+          required
+        ></textarea>
+        <button class="booking__input booking__input--button" type="submit">
+          Submit
+        </button>
+      </form>
+    </main>
+    <footer>
+      <section class="contact">
+        <h3>Contact</h3>
+        <h4>EMAIL</h4>
+        <p class="contact__email">info@travelsite.com</p>
+      </section>
+      <section class="hours">
+        <h3>Hours</h3>
+        <div class="hours__schedule">
+          <div class="hours__days">
+            <h4>MONDAY-FRIDAY</h4>
+            <p class="hours__time">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="hours__days">
+            <h4>SATURDAY</h4>
+            <p class="hours__time">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="hours__days">
+            <h4>SUNDAY</h4>
+            <p class="hours__time">Closed</p>
+          </div>
+        </div>
+      </section>
+      <section class="social">
+        <h3>Social</h3>
+
+        <a href="https://www.instagram.com/"
+          ><img
+            src="../assets/icons/icon-instagram.png"
+            alt=""
+            class="social__icon"
+        /></a>
+        <a href="https://www.facebook.com/"
+          ><img
+            src="../assets/icons/icon-facebook.png"
+            alt=""
+            class="social__icon"
+        /></a>
+        <a href="https://x.com/"
+          ><img
+            src="../assets/icons/icon-twitter.png"
+            alt=""
+            class="social__icon"
+        /></a>
+      </section>
+    </footer>
+  </body>
+</html>
