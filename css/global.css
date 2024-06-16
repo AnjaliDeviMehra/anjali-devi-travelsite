@@ -42,10 +42,15 @@ body {
   color: black;
   font-weight: 500;
 }
+.nav__link:hover {
+  text-decoration: underline #db7a4e 3px;
+  text-underline-offset: 0.7rem;
+}
 .nav__link--active {
   text-decoration: underline #db7a4e 3px;
   text-underline-offset: 0.7rem;
 }
+
 h3 {
   color: #335576;
   font-size: 2rem;
